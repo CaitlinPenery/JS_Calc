@@ -6,7 +6,7 @@ Recreate a calculater from chosen image and have it be able to carry out basic f
 
 ## Screenshot
 
-![image](images\istockphoto-531633071-612x612.jpg)
+<img src="images\istockphoto-531633071-612x612.jpg" width=100>
 
 ## Implementation
 
