@@ -29,7 +29,7 @@ _Part 2_
 
 ## Plan
 
-1. Each button will carry out function onClick
+1. Each button will carry out function onClick eventListener
 2. Number Buttons
 
 -   Replace content of display if previous onClick was an operator
@@ -38,5 +38,10 @@ _Part 2_
 3. '.' Add to displayed number
 4. Operator Buttons
 
--   Carry out calculation with stored value and displayed value then display the total.
+-   Create variable for operator
+-   Create variable to decide calculation based on value
+
+5. Carry out calculation with stored value and displayed value then display the total.
+
 -   Allow next calculation
+-   Create two variables to store numbers

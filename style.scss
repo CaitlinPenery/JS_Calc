@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    background-color: #f1a54e;
 }
 
 .heading {
@@ -17,26 +18,22 @@ body {
 
 .calc {
     @include mixins.box-size(300px, 330px, 20px);
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    // flex-wrap: wrap;
 
     background-color: #575757;
     justify-content: center;
     padding-top: 25px;
     &__output {
-        display: flex;
-
         background-color: #bcd1c0;
-        @include mixins.box-size(250px, 60px, 15px);
-        justify-content: flex-end;
-        &--text {
-            display: flex;
-            font-size: 250%;
-            padding-right: 5%;
-            align-self: center;
-            justify-content: flex-end;
-        }
+        @include mixins.box-size(240px, 50px, 15px);
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        text-align: right;
+        font-size: 4rem;
     }
+
     &__input {
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -53,10 +50,10 @@ body {
             align-items: center;
             font-size: 150%;
             font-weight: bolder;
+            font-family: Georgia, "Times New Roman", Times, serif;
         }
     }
 }
-// Ordering grid
 
 #dot {
     grid-column: 2;

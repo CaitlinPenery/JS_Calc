@@ -5,45 +5,126 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
+        <script src="./index.js" defer></script>
         <title>JS Calculator</title>
     </head>
     <body>
         <header class="heading"><h1>JavaScript Calculator</h1></header>
         <div class="calc">
-            <div class="calc__output"><p class="calc__output--text">0</p></div>
+            <input type="text" class="calc__output" value="0" disabled />
             <div class="calc__input">
-                <p id="dot" class="calc__input--btn calc__input--btn-num">.</p>
-                <p id="zero" class="calc__input--btn calc__input--btn-num">0</p>
-                <p id="one" class="calc__input--btn calc__input--btn-num">1</p>
-                <p id="two" class="calc__input--btn calc__input--btn-num">2</p>
-                <p id="three" class="calc__input--btn calc__input--btn-num">
+                <button
+                    id="dot"
+                    class="calc__input--btn calc__input--btn-dot"
+                    value="."
+                >
+                    .
+                </button>
+                <button
+                    id="zero"
+                    class="calc__input--btn calc__input--btn-num"
+                    value="0"
+                >
+                    0
+                </button>
+                <button
+                    id="one"
+                    class="calc__input--btn calc__input--btn-num"
+                    value="1"
+                >
+                    1
+                </button>
+                <button
+                    id="two"
+                    class="calc__input--btn calc__input--btn-num"
+                    value="2"
+                >
+                    2
+                </button>
+                <button
+                    id="three"
+                    class="calc__input--btn calc__input--btn-num"
+                    value="3"
+                >
                     3
-                </p>
-                <p id="four" class="calc__input--btn calc__input--btn-num">4</p>
-                <p id="five" class="calc__input--btn calc__input--btn-num">5</p>
-                <p id="six" class="calc__input--btn calc__input--btn-num">6</p>
-                <p id="seven" class="calc__input--btn calc__input--btn-num">
+                </button>
+                <button
+                    id="four"
+                    class="calc__input--btn calc__input--btn-num"
+                    value="4"
+                >
+                    4
+                </button>
+                <button
+                    id="five"
+                    class="calc__input--btn calc__input--btn-num"
+                    value="5"
+                >
+                    5
+                </button>
+                <button
+                    id="six"
+                    class="calc__input--btn calc__input--btn-num"
+                    value="6"
+                >
+                    6
+                </button>
+                <button
+                    id="seven"
+                    class="calc__input--btn calc__input--btn-num"
+                    value="7"
+                >
                     7
-                </p>
-                <p id="eight" class="calc__input--btn calc__input--btn-num">
+                </button>
+                <button
+                    id="eight"
+                    class="calc__input--btn calc__input--btn-num"
+                    value="8"
+                >
                     8
-                </p>
-                <p id="nine" class="calc__input--btn calc__input--btn-num">9</p>
-                <p id="equals" class="calc__input--btn calc__input--btn-ops">
+                </button>
+                <button
+                    id="nine"
+                    class="calc__input--btn calc__input--btn-num"
+                    value="9"
+                >
+                    9
+                </button>
+                <button
+                    id="equals"
+                    class="calc__input--btn calc__input--btn-ops"
+                    value="="
+                >
                     &equals;
-                </p>
-                <p id="plus" class="calc__input--btn calc__input--btn-ops">
+                </button>
+                <button
+                    id="plus"
+                    class="calc__input--btn calc__input--btn-ops"
+                    value="+"
+                >
                     &plus;
-                </p>
-                <p id="min" class="calc__input--btn calc__input--btn-ops">
+                </button>
+                <button
+                    id="min"
+                    class="calc__input--btn calc__input--btn-ops"
+                    value="-"
+                >
                     &minus;
-                </p>
-                <p id="mlt" class="calc__input--btn calc__input--btn-ops">
+                </button>
+                <button
+                    id="mlt"
+                    class="calc__input--btn calc__input--btn-ops"
+                    value="*"
+                >
                     &times;
-                </p>
-                <p id="div" class="calc__input--btn calc__input--btn-ops">
+                </button>
+                <button
+                    id="div"
+                    class="calc__input--btn calc__input--btn-ops"
+                    value="/"
+                >
                     &div;
-                </p>
+                </button>
             </div>
         </div>
         <footer class="heading">Built by Caitlin</footer>
